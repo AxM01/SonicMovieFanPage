@@ -63,16 +63,21 @@ nav a:hover {
   color: aliceblue;
   padding: 2px 5px;
 }
-.welcome button {
+.button {
   padding: 10px 30px;
   font-size: 20px;
   font-weight: bold;
-  background: linear-gradient(to top, #0f0920, #002fff);
+  background-color: blue;
   border: black;
   color: aliceblue;
   border-radius: 4px;
-  text-shadow: 0px 0px 30px aliceblue;
+  text-shadow: 30px 30px 30px rgb(255, 255, 255);
+  cursor: pointer;
 }
+.button:hover{
+    background-color: red;
+    text-shadow: 0px 30px 30px blue;
+  }
 .abtus{
     text-align: center;
     padding: 40px 20px;
